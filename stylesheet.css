@@ -1,10 +1,30 @@
 /* CSS for Map */
-#map {
-  position:absolute;
-  top:40px;
-  bottom:50px; 
-  width:100%; }
+
 
 /* CSS for homempage */
 body,h1 {font-family: "Verdana", sans-serif;}
 body, html {height: 100%}
+
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.map-container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.chart-container{
+  display: flex;
+    align-content: center;
+  justify-content: center;
+}
+
+#map {
+  height: 400px;
+  width:100%;
+ }
